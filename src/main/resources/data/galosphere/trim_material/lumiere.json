@@ -1,0 +1,9 @@
+{
+  "asset_name": "lumiere",
+  "description": {
+    "color": "#D58C43",
+    "translate": "trim_material.galosphere.lumiere"
+  },
+  "ingredient": "galosphere:lumiere_shard",
+  "item_model_index": 0.5
+}

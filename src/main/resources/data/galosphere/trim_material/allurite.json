@@ -1,0 +1,9 @@
+{
+  "asset_name": "allurite",
+  "description": {
+    "color": "#32AFAA",
+    "translate": "trim_material.galosphere.allurite"
+  },
+  "ingredient": "galosphere:allurite_shard",
+  "item_model_index": 0.8
+}
