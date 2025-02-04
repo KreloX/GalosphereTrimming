@@ -2,6 +2,7 @@ modLoader="javafml" #mandatory
 loaderVersion="${loader_version_range}" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 license="${mod_license}"
 issueTrackerURL="https://github.com/KreloX/GalosphereTrimming/issues" #optional
+
 [[mods]] #mandatory
 modId="${mod_id}" #mandatory
 version="${mod_version}" #mandatory
@@ -10,23 +11,23 @@ updateJSONURL="https://github.com/KreloX/GalosphereTrimming/blob/master/updates.
 displayURL="https://modrinth.com/mod/galosphere-trimming" #optional
 logoFile="logo.png" #optional
 authors="${mod_authors}" #optional
-
 description='''${mod_description}'''
+
 [[dependencies.${mod_id}]] #optional
-modId="forge" #mandatory
-mandatory=true #mandatory
-versionRange="${neo_version_range}" #mandatory
-ordering="NONE"
-side="BOTH"
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="${forge_version_range}" #mandatory
+    ordering="NONE"
+    side="BOTH"
 [[dependencies.${mod_id}]]
-modId="minecraft"
-mandatory=true
-versionRange="${minecraft_version_range}"
-ordering="NONE"
-side="BOTH"
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
 [[dependencies.${mod_id}]]
-modId="galosphere"
-mandatory=true
-versionRange="${galosphere_version_range}"
-ordering="NONE"
-side="BOTH"
+    modId="galosphere"
+    mandatory=true
+    versionRange="${galosphere_version_range}"
+    ordering="NONE"
+    side="BOTH"
