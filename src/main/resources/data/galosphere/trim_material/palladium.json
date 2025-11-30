@@ -1,0 +1,9 @@
+{
+  "asset_name": "palladium",
+  "description": {
+    "color": "#B6CBCB",
+    "translate": "trim_material.galosphere.palladium"
+  },
+  "ingredient": "galosphere:palladium_ingot",
+  "item_model_index": 0.2
+}

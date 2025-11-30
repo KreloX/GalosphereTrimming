@@ -42,7 +42,7 @@
       ],
       "palette_key": "trims/color_palettes/trim_palette",
       "permutations": {
-        "silver": "galosphere:trims/color_palettes/silver",
+        "palladium": "galosphere:trims/color_palettes/palladium",
         "allurite": "galosphere:trims/color_palettes/allurite",
         "lumiere": "galosphere:trims/color_palettes/lumiere"
       }
